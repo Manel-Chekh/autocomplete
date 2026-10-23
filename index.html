@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="box">
+    <h1>Search a country</h1>
+    <div class="combo">
+      <input id="search" type="text" placeholder="Try: land, cote d'ivoire..." autocomplete="off"
+             role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list">
+      <ul id="results" role="listbox" hidden></ul>
+    </div>
+    <p class="hint">Arrow keys to navigate, Enter to select, Esc to close</p>
+  </main>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
